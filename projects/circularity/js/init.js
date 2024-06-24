@@ -72,6 +72,10 @@ var init = function (window) {
         circle.y = canvas.height;
       }
 
+      if (circle.y > canvas.height) {
+        circle.y = 0;
+      }
+
       // TODO 6 : YOUR CODE STARTS HERE //////////////////////
 
       // YOUR TODO 6 CODE ENDS HERE //////////////////////////
